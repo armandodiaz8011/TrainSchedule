@@ -1,0 +1,39 @@
+
+.schedule-container {
+    min-width: 800px;
+}
+
+.input-container {
+    min-width: 800px;
+}
+
+.text-center {
+    font-family: 'VT329', monospace;
+    animation: createBox 3s;
+    z-index: 2;
+}
+
+@keyframes createBox {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.panel > .panel-heading {
+    background-color: grey;
+    color: white;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 9px;
+}
+
+.jumbotron {
+    color: navy;
+    min-width: 800px;
+}
